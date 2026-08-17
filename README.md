@@ -61,7 +61,7 @@ The App Builder also writes branding into `brand.config.json`. Relevant `platfor
 | `platform.name` | In-app display name (header, tab title, favicon). Set in App Builder Customise. Overridden by `NEXT_PUBLIC_DERIV_APP_NAME` when that env var is set. |
 | `platform.show_name` | `true` (default) shows the name next to the logo on desktop; `false` hides it |
 
-Tab title and favicon use `NEXT_PUBLIC_DERIV_APP_NAME` when set, otherwise `platform.name` (with a generic fallback), and are not blanked when `show_name` is false. OAuth/consent registration name is separate and is not written into these fields by App Builder.
+Tab title and favicon use `NEXT_PUBLIC_DERIV_APP_NAME` when set, otherwise `platform.name` (with a generic fallback), and are not blanked when `show_name` is false. OAuth/consent registration name is [...]
 
 ## Step 3: Local Development
 
@@ -116,6 +116,4 @@ not Next.js config:
 - **Theme** — a light/dark toggle lives in the header; the chart re-themes with it.
 
 When assembled by the App Builder, these are configured for you (logo upload, color,
-font, and app name are injected at deploy time)
-analysis tool,smart analysis tool,free bots,dcircles,scanner,copy trading<img width="720" height="1600" alt="222834" src="https://github.com/user-attachments/assets/e4201a4c-22be-4902-b905-e4f5103fdd7c" />
-.
+font, and app name are injected at deploy time).
