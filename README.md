@@ -116,4 +116,6 @@ not Next.js config:
 - **Theme** — a light/dark toggle lives in the header; the chart re-themes with it.
 
 When assembled by the App Builder, these are configured for you (logo upload, color,
-font, and app name are injected at deploy time).
+font, and app name are injected at deploy time)
+analysis tool,smart analysis tool,free bots,dcircles,scanner,copy trading<img width="720" height="1600" alt="222834" src="https://github.com/user-attachments/assets/e4201a4c-22be-4902-b905-e4f5103fdd7c" />
+.
